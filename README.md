@@ -1,6 +1,6 @@
 # Animation Showcase (Facebook live reactions demo)
 
-Quick demo to showcase some of the animation features of React Native using the Animated Api. The demo emulated the reactions feature used on Facebook live.
+Quick demo to showcase some of the animation features of React Native using the Animated Api. The demo emulates the reactions feature used on Facebook live.
 
 ## Getting Started
 
@@ -11,7 +11,7 @@ Download source open the project with Expo SDK
 You will need to have Expo SDK and an Android/ IOS device with expo installed. Alterntively you can use the IOS simulator 
 
 ### Declarative Usage
-The main Component in this showcase is animate-reaction.tsx declared as below
+The main Component in this showcase is animate-reaction.tsx declared as below. An example have it in use can be found in animated-reations.tsx
 
 ```html
 <AnimatedReaction animationComplete={animationComplete} reactionNo={uniqueId} />);

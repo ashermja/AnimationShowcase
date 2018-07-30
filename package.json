@@ -1,0 +1,35 @@
+{
+  "name": "AnimationShowcase",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@types/react": "^16.4.7",
+    "@types/react-native": "^0.56.4",
+    "jest-expo": "~27.0.0",
+    "react-native-scripts": "1.14.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.3.1",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^7.1.0",
+    "tslint-react": "^3.6.0",
+    "typescript": "^2.9.2"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest",
+    "lint": "tslint 'app/**/*.{ts,tsx}'"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^27.0.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-elements": "^0.19.1"
+  }
+}

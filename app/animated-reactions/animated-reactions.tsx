@@ -1,7 +1,8 @@
 import React from 'react'
 import { Component } from 'react';
 import { View } from 'react-native';
-import { Button } from 'react-native-elements'
+import { Button } from 'react-native-elements';
+import { LinearGradient } from 'expo';
 import styles from './styles';
 import AnimatedReaction from '../components/animated-reaction';
 
@@ -50,10 +51,12 @@ export default class AnimationReactions
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.screen}>
-          {this.renderReactions()}
-        </View>
-        <Button style={styles.reactionButton} title='Random Reaction' onPress={this.animateReaction} />
+         <LinearGradient
+          colors={['#2E123E', '#582564', '#804E8A']}
+          style={styles.screen}>
+            {this.renderReactions()}
+        </LinearGradient>
+        <Button buttonStyle={styles.reactionButton} title='RANDOM REACTION' onPress={this.animateReaction} />
       </View>);
   }
 }

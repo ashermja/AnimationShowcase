@@ -3,17 +3,20 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   container: {
     width: '100%',
-    height: 400,
+    height: '100%',
     flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center'
   },
   screen: {
     backgroundColor: '#666666',
-    height: 330,
-    width: '100%' // TODO: use flex box modal
+    flex: 1,
+    width: '100%',
+    marginBottom: 30
   },
   reactionButton: {
-    margin: 10
+    backgroundColor:'#924795',
+    borderRadius: 5,
+    marginBottom: 30
   }
 });

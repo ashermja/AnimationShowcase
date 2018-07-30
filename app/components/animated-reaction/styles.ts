@@ -21,6 +21,6 @@ export default StyleSheet.create({
   animatedCircle: {
     position: 'absolute',
     left: width,
-    top: 100
+    top: 200
   }
 });
